@@ -19,7 +19,7 @@ export default function Questions() {
                 {questions.questions[currQuestion].q}</h1>
             <hr className='border border-gray-700'></hr>
         </div>
-        <div className='grid place-items-center appear'>
+        <div className='grid place-items-center appear mt-[-300px]'>
             <div className='grid gap-y-8 justify-center w-full'>
             <button onClick={()=>{
                 setSelection(questions.questions[currQuestion].si)
@@ -85,12 +85,6 @@ export default function Questions() {
                 <path fill="currentColor" d="m14 18l-1.4-1.45L16.15 13H4v-2h12.15L12.6 7.45L14 6l6 6l-6 6Z"/>
                 </svg></button>
         </div>
-
-        <footer className='mt-auto appear w-48'>
-        <Link className='flex items-center' href={"/"}><svg xmlns="http://www.w3.org/2000/svg" className='mr-1' width="1em" height="1em" viewBox="0 0 24 24">
-            <path fill="currentColor" d="m5.828 7l2.536 2.535L6.95 10.95L2 6l4.95-4.95l1.414 1.415L5.828 5H13a8 8 0 1 1 0 16H4v-2h9a6 6 0 0 0 0-12H5.828Z"/>
-        </svg><p className='text-lg sm:text-3xl'>Volver al inicio</p></Link>
-        </footer>
     </div>
   )
 }
