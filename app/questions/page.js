@@ -2,7 +2,6 @@
 "use client"
 import React, { useState } from 'react'
 import Response from './Response'
-import Link from 'next/link'
 import questions from "./questions"
 import { useRouter } from 'next/navigation'
 
@@ -12,6 +11,8 @@ export default function Questions() {
     const [currQuestion, setCurrQuestion] = useState(0)
     const [option, setOption] = useState(0)
     const [page, setPage] = useState(0)
+    const [points, setPoints] = useState(0)
+    const [discount, setDiscount] = useState(5)
   return (
     <div className='grid h-screen bg-white text-black p-6 w-screen'>
         <div className='appear'>
@@ -19,16 +20,20 @@ export default function Questions() {
                 {questions.questions[currQuestion].q}</h1>
             <hr className='border border-gray-700'></hr>
         </div>
-        <div className='grid place-items-center appear mt-[-300px]'>
+        <div className='grid place-items-center appear'>
             <div className='grid gap-y-8 justify-center w-full'>
             <button onClick={()=>{
                 setSelection(questions.questions[currQuestion].si)
+                setDiscount(questions.questions[currQuestion].d)
+                setPoints(points-questions.questions[currQuestion].d)
                 setOption(0)
             }} className='bg-gray-300 rounded-lg p-2 w-56 sm:w-96 text-xl sm:text-5xl
             hover:bg-gray-500 hover:text-white duration-150'>{questions.questions[currQuestion].st}</button>
             <button onClick={()=>{
                 setOption(1)
                 setSelection(questions.questions[currQuestion].no)
+                setDiscount(questions.questions[currQuestion].d)
+                setPoints(points-questions.questions[currQuestion].d)
             }} className='bg-gray-300 rounded-lg p-2 w-56 sm:w-96 text-xl sm:text-5xl
             hover:bg-gray-500 hover:text-white duration-150'>{questions.questions[currQuestion].nd}</button>
             </div>
@@ -73,7 +78,7 @@ export default function Questions() {
                     }
                     
                 }else{
-                    push("/")
+                    push(`/results?points=${points}`)
                     setPage(0)
                 }
             }
@@ -85,6 +90,10 @@ export default function Questions() {
                 <path fill="currentColor" d="m14 18l-1.4-1.45L16.15 13H4v-2h12.15L12.6 7.45L14 6l6 6l-6 6Z"/>
                 </svg></button>
         </div>
+        <footer className='mt-auto appear w-48'>
+        <p className={`absolute text-red-700 text-red-600 text-3xl translate-y-[-20px] opacity-0 ${selection != "" ? 'opacity-100 translate-y-[-50px]' : ''} duration-300`}>-{discount} Puntos</p>
+        <p className={`text-lg sm:text-3xl ${points <0 ?'text-red-400' :'text-black'}`}>{points}: Puntos</p>
+        </footer>
     </div>
   )
 }

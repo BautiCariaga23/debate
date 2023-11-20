@@ -12,7 +12,7 @@ export default function Home() {
 
       setTimeout(()=>{
         push("/questions")
-      },2000)
+      },1000)
     }} className="grid bg-white text-black place-items-center h-screen">
       <div className={`text-center ${clicked ? 'dissapear' : ''} translate-y-0 duration-500`}>
         <h1 className='text-5xl sm:text-7xl font-bold mb-16 tracking-wider'>{`${'Te advierto, Sócrates, que tanto si contesta de una manera como de otra, el joven será refutado'.toUpperCase()}`}</h1>

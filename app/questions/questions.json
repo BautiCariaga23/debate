@@ -1,6 +1,7 @@
 {
     "questions":[
         {
+            "d": 5,
             "q":"¿Pensás que los males deberían ser resueltos por medio del castigo?",
             "st":"Sí",
             "nd":"No",
@@ -8,6 +9,7 @@
             "no": "Fantástico. Excelente idea, vos, como te llames. A cada chorro, una medalla y un alfajor. Así vamos a llegar muy lejos: ¡al cielo todos!, todos muertos. ¡Menos los delincuentes! Muy bien eh. A ver si empezamos a hablar en serio..."
         },
         {
+            "d": 7,
             "q":"¿Cuál pensás que debería ser la norma de convivencia social?",
             "st":"La solidaridad",
             "nd":"Cada uno debería ocuparse de sí mismo, de sus necesidades e intereses",
@@ -25,6 +27,7 @@
             ]
         },
         {
+            "d": 15,
             "q":"¿Te parece que deberíamos esforzarnos por hacer del mundo un lugar mejor?",
             "st":"Sí",
             "nd":"No",
@@ -32,6 +35,7 @@
             "no": "Mirá, vos, quién corno seas. Lamento decirte que entonces sos un pelotudo. No lo digo yo asì solo por decir, es cuestiòn de lògica, Mirà: Yo digo que sos un pelotudo. Y si digo, digo algo, porque si digo nada, entonces no estoy diciendo. Si digo algo tiene que ser algo que es, porque si digo algo que no es, entonces digo nada. La nada es lo que no es. Y si digo algo que es, entonces digo la verdad. Por lo tanto, sos un pelotudo y como sos un pelotudo tu respuesta no tiene valor. Saludos."
         },
         {
+            "d": 50,
             "q":"¿Te queda claro cómo está la cosa?",
             "st":"Me queda claro",
             "nd":"No me queda claro",
@@ -39,6 +43,7 @@
             "no": "A ver, a ver. Si cambias el mundo, Marta, Sergio, o quien seas, el mundo va a ser distinto, es decir que el mundo va a dejar de ser lo que es, es decir que es mundo no va a ser nada, es decir que vas a terminar con el mundo Pedro, Anastasia o como corno te llames. Por lo tanto, el mundo no puede ser un lugar mejor."
         },
         {
+            "d": 102,
             "q":"¿Cómo solucionarías las desigualdades sociales?",
             "st":"Matando a todos los que quedan desiguales",
             "nd":"Matando a todos los que quedan desiguales no",
@@ -46,6 +51,7 @@
             "no": "Ayayayyy Carlitos, Marielena, o como te llames, vos resultás, haciendote el moralista un disfrazado sin carnaval. Oigo muchos problemas y muy pocas soluciones eh, moralistìn, moralistontòn."
         },
         {
+            "d": 357,
             "q":"¿Estás conforme con la encuesta?",
             "st":"Sí",
             "nd":"No",

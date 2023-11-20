@@ -27,7 +27,7 @@ body {
 
 
 .dissapear{
-  animation: dissapear 2s 0.1s 1 forwards;
+  animation: dissapear 1s 0.1s 1 forwards;
 }
 
 @keyframes dissapear {
@@ -43,7 +43,7 @@ body {
 }
 
 .appear{
-  animation: appear 2s 0.1s 1 forwards;
+  animation: appear 1s 0.1s 1 forwards;
   opacity: 0;
 }
 
