@@ -1,0 +1,57 @@
+{
+    "questions":[
+        {
+            "q":"¿Pensás que los males deberían ser resueltos por medio del castigo?",
+            "st":"Sí",
+            "nd":"No",
+            "si": "¿Sí? A ver, a ver, Carlitos, Marta, o como te llames... ¿Vos decís que sobrevivirías al examen de conciencia? 50 latigazos por cada película que pirateaste, para empezar. ¿Y me vas a decir que nunca pisaste una hormiga? Prestá atención a lo que se te pregunta y responde bien, por favor.",
+            "no": "Fantástico. Excelente idea, vos, como te llames. A cada chorro, una medalla y un alfajor. Así vamos a llegar muy lejos: ¡al cielo todos!, todos muertos. ¡Menos los delincuentes! Muy bien eh. A ver si empezamos a hablar en serio..."
+        },
+        {
+            "q":"¿Cuál pensás que debería ser la norma de convivencia social?",
+            "st":"La solidaridad",
+            "nd":"Cada uno debería ocuparse de sí mismo, de sus necesidades e intereses",
+            "si": "Mirá, muy lindo todo, pero lamentablemente esto no puede ser. Para empezar, para ser solidario con los demàs hay que ser. Y todos sabemos que lo que es no es. Porque si lo que es fuera deberìa ser, (a) o bien eterno y, por lo tanto, no generado; (b) o bien generado; (c) o bien eterno y generado a la vez.",
+            "si_pages":[
+                "(a) Lo que es no puede ser eterno y no generado, porque si fuera eterno y no generado, no tendría principio. Es decir: sería infinito. Pero si fuera infinito, no podría estar en ninguna parte. Porque para estar en alguna parte debería estar contenido en el espacio, y si estuviera contenido en el espacio estaría contenido en algo, como lapicera en cartuchera, como pato en un jarrón; por lo tanto, no sería infinito. Y si no está en ninguna parte no es, porque lo que no está en ninguna parte no es. Si vos decís que tenès mucha plata y esa plata no está en ninguna parte, no la tenès, no existe. Lo mismo pasa con el ser y con la solidaridad.",
+                "(b) Lo que es no puede ser generado. Si fuera generado, debería haber sido generado, o a partir de lo que es, o a partir de lo que no es. Pero si es algo que es, no pudo ser generado a partir de lo que es, porque entones ya serìa antes de ser, y eso no puede ser, chinchulín. ¡Prestà atención! Tampoco pudo haber sido generado a partir de lo que no, porque lo que no es, la nada, no puede generar algo: lo que genera debe participar de la existencia. Por lo tanto, ni lo que es ni lo que no es pueden generar lo que es y entonces lo que es no es, ya que no puede ser generado; igual que tampoco puede ser la solidaridad.",
+                "(c) No puede ser eterno y generado a la vez, porque son opuestos y eso no tiene sentido, chinchulín. ¡Prestà atención, eh!"
+            ],
+            "no": "Cuchame (leeme) una cosa, ilustradìto, lucesita, en primer lugar (y en ùltimo lugar tambièn porque no hay màs que decir): para ocuparse cada uno de sì mismo, primero deberìa ser si mismo y no otro (porque si no sin darse cuenta terminarìa siendo solidario y eso es lo que no queremos), y para ser sì mismo, antes deberìa ser. Y todos sabemos que lo que es no es. Porque si lo que es fuera debería ser, (a) o bien eterno y, por lo tanto, no generado; (b) o bien generado; (c) o bien eterno y generado a la vez",
+            "no_pages":[
+                "(a) Lo que es no puede ser eterno y no generado, porque si fuera eterno y no generado, no tendría principio. Es decir: sería infinito. Pero si fuera infinito, no podría estar en ninguna parte. Porque para estar en alguna parte debería estar contenido en el espacio, y si estuviera contenido en el espacio estaría contenido en algo, como lapicera en cartuchera, como pato en un jarrón; por lo tanto, no sería infinito. Y si no está en ninguna parte no es, porque lo que no está en ninguna parte no es. Si vos decís que tenès mucha plata y esa plata no está en ninguna parte, no la tenès, no existe. Lo mismo pasa con el ser y con el sì mismo; el tuyo, el de aquel, el de aquella, etc., etc., etc.",
+                "(b) Lo que es no puede ser generado. Si fuera generado, debería haber sido generado, o a partir de lo que es, o a partir de lo que no es. Pero si es algo que es, no pudo ser generado a partir de lo que es, porque entones ya serìa antes de ser, y eso no puede ser, chinchulín. ¡Prestà atención! Tampoco pudo haber sido generado a partir de lo que no, porque lo que no es, la nada, no puede generar algo: lo que genera debe participar de la existencia. Por lo tanto, ni lo que es ni lo que no es pueden generar lo que es y entonces lo que es no es, ya que no puede ser generado; igual que tampoco puede ser uno un sì mismo si no es.",
+                "(c) No puede ser eterno y generado a la vez, porque son opuestos y eso no tiene sentido, chinchulín. ¡Prestá atención, eh!"
+            ]
+        },
+        {
+            "q":"¿Te parece que deberíamos esforzarnos por hacer del mundo un lugar mejor?",
+            "st":"Sí",
+            "nd":"No",
+            "si": "¿Pero vos no te das cuenta de que sos un engreido? ¿Te crees que al mundo lo vas a arreglar vos? ¡Si acà ni Dios rescata lo perdido! ¿Qué querés vos? Hace el favor...",
+            "no": "Mirá, vos, quién corno seas. Lamento decirte que entonces sos un pelotudo. No lo digo yo asì solo por decir, es cuestiòn de lògica, Mirà: Yo digo que sos un pelotudo. Y si digo, digo algo, porque si digo nada, entonces no estoy diciendo. Si digo algo tiene que ser algo que es, porque si digo algo que no es, entonces digo nada. La nada es lo que no es. Y si digo algo que es, entonces digo la verdad. Por lo tanto, sos un pelotudo y como sos un pelotudo tu respuesta no tiene valor. Saludos."
+        },
+        {
+            "q":"¿Te queda claro cómo está la cosa?",
+            "st":"Me queda claro",
+            "nd":"No me queda claro",
+            "si": "Porque si cambias el mundo, Marta, Sergio, o quien seas, el mundo va a ser distinto, es decir que el mundo va a dejar de ser lo que es, es decir que es mundo no va a ser nada, es decir que vas a terminar con el mundo Pedro, Anastasia o como corno te llames. Por lo tanto, el mundo no puede ser un lugar mejor. 5o puntos menos por tardar tanto en entender.",
+            "no": "A ver, a ver. Si cambias el mundo, Marta, Sergio, o quien seas, el mundo va a ser distinto, es decir que el mundo va a dejar de ser lo que es, es decir que es mundo no va a ser nada, es decir que vas a terminar con el mundo Pedro, Anastasia o como corno te llames. Por lo tanto, el mundo no puede ser un lugar mejor."
+        },
+        {
+            "q":"¿Cómo solucionarías las desigualdades sociales?",
+            "st":"Matando a todos los que quedan desiguales",
+            "nd":"Matando a todos los que quedan desiguales no",
+            "si": "¿Desiguales a què? ¿De què corno estàs hablando? Para que solo queden iguales, habría que hacerlos polvo a todos. “Polvo eres y al polvo volverás”, como dijo uno de los que sale en la Biblia.",
+            "no": "Ayayayyy Carlitos, Marielena, o como te llames, vos resultás, haciendote el moralista un disfrazado sin carnaval. Oigo muchos problemas y muy pocas soluciones eh, moralistìn, moralistontòn."
+        },
+        {
+            "q":"¿Estás conforme con la encuesta?",
+            "st":"Sí",
+            "nd":"No",
+            "si": "¿Qué vachache? Hoy ya murió el criterio. Vale Jesús lo mismo que un ladrón.",
+            "no": "¿Qué culpa tengo si has tomado la vida en serio? Pasas de otario, morfas aire y no tenes colchón. ¿Qué vachache? Hoy ya murio el criterio. Vale Jesús lo mismo que un ladrón."
+        }
+        
+    ]
+}
