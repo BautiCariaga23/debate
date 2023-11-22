@@ -29,7 +29,7 @@ export default function Questions() {
                     setPage(0)
                 }
                 
-                }} className='absolute top-[5rem] left-[-20px]'>
+                }} className='absolute top-[5rem] left-[-20px] hover:cursor-pointer hover:scale-105 duration-150'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M20 10v4h-9l3.5 3.5l-2.42 2.42L4.16 12l7.92-7.92L14.5 6.5L11 10h9Z"/>
             </svg>
