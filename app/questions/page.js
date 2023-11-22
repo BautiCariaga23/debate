@@ -22,6 +22,18 @@ export default function Questions() {
         </div>
         <div className='grid place-items-center appear'>
             <div className='grid gap-y-8 justify-center w-full'>
+            <div onClick={()=>{
+                if(currQuestion > 0){
+                    setPoints(points+questions.questions[currQuestion-1].d)
+                    setCurrQuestion(currQuestion-1)
+                    setPage(0)
+                }
+                
+                }} className='absolute top-[5rem] left-[-20px]'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M20 10v4h-9l3.5 3.5l-2.42 2.42L4.16 12l7.92-7.92L14.5 6.5L11 10h9Z"/>
+            </svg>
+            </div>
             <button onClick={()=>{
                 setSelection(questions.questions[currQuestion].si)
                 setDiscount(questions.questions[currQuestion].d)
@@ -71,12 +83,7 @@ export default function Questions() {
             }else{
                 setSelection("")
                 if(currQuestion<questions.questions.length-1){
-                    if(currQuestion == 2 && option == 1){
-                        setCurrQuestion(currQuestion+2)
-                    }else{
                         setCurrQuestion(currQuestion+1)
-                    }
-                    
                 }else{
                     push(`/results?points=${points}`)
                     setPage(0)
